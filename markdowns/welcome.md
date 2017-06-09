@@ -7,7 +7,7 @@ The source code is on [GitHub](), please feel free to come up with proposals to 
 
 # Hands-on Demo
 
-@[Luke, how many stars there are in these galaxies?]({"stubs": ["Sources/Universe.swift"], "command": "/bin/bash run.sh"})
+@[Luke, how many stars there are in these galaxies?]({"stubs": ["Sources/swift_template.swift"], "command": "/bin/bash run.sh"})
 
 Check out the markdown file [`welcome.md`]() to see how this exercise is injected into the template.
 
