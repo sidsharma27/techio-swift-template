@@ -1,6 +1,6 @@
 title : Swift Template
 plan:
-  - title: Swift on Tech.io!
+  - title: Swift on Tech.io
     statement: markdowns/welcome.md
 projects:
   first-project:
