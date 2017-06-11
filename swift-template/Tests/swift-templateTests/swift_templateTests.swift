@@ -9,6 +9,15 @@ class swift_templateTests: XCTestCase {
         XCTAssertEqual(swift_template().countAllStars(galaxies: 9, -3), 6)
     }
 
+    override func tearDown() {
+        super.tearDown()
+
+        if testRun?.failureCount > 0 {
+            print("failed")
+        } else {
+            print("success")
+        }
+    }
 
     static var allTests = [
         ("testExample", testExample),
