@@ -12,7 +12,7 @@ class swift_templateTests: XCTestCase {
     override func tearDown() {
         super.tearDown()
 
-        if testRun?.failureCount > 0 {
+        if testRun!.failureCount > 0 {
             print("failed")
         } else {
             print("success")
