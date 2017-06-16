@@ -3,7 +3,9 @@ class swift_template {
 	    var totalStars:Int = 0
 	    for stars in galaxies {
 		    totalStars = stars // fix me! (Hint: +=)
+			galaxies.reduce
 	    } 
 	    return totalStars
     }
 }
+

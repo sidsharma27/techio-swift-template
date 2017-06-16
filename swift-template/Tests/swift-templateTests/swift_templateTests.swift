@@ -11,7 +11,27 @@ class swift_templateTests: XCTestCase {
 
     override func tearDown() {
         super.tearDown()
-
+        if Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
+            do {
+                let content = try File.read(atPath: "/project/target/Sources/swift_template.swift") as! String
+                print(content)
+                if content.range(of:"galaxies.reduce") != nil{ 
+                    println("exists")
+                    println("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
+                    println("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
+                    println("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
+                    println("My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　");
+                    println("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
+                    println("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
+                    println("My personal Yoda, you are. 🙏", "_)_/LI");
+                }
+                else {
+                    println("Try using array.reduce")
+                }
+            } catch {
+                print(error)
+            }
+        }
         if testRun!.failureCount > 0 {
             print("failed")
         } else {
