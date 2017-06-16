@@ -17,17 +17,16 @@ class swift_templateTests: XCTestCase {
                 let content = try File.read(atPath: "/project/target/Sources/swift_template.swift") as! String
                 print(content)
                 if content.range(of:"galaxies.reduce") != nil{ 
-                    print("exists")
-                    print("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
-                    print("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
-                    print("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
-                    print("My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　");
-                    print("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
-                    print("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
-                    print("My personal Yoda, you are. 🙏", "_)_/LI");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
+                    print("TECHIO> message --channel My personal Yoda, you are. 🙏", "_)_/LI");
                 }
                 else {
-                    print("Try using array.reduce")
+                    print("TECHIO> message --channel Try using array.reduce")
                 }
             } catch {
                 print(error)
