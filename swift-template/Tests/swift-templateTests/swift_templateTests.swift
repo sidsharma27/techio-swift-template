@@ -12,7 +12,7 @@ class swift_templateTests: XCTestCase {
 
     override func tearDown() {
         super.tearDown()
-        if Path.exists("/project/target/bubbleSort/Sources/bubbleSort.swift") {
+        if Path.exists("/project/target/Sources/swift_template.swift") {
             do {
                 let content = try File.read(atPath: "/project/target/Sources/swift_template.swift") as! String
                 print(content)
