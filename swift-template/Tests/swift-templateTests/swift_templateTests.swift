@@ -1,6 +1,7 @@
 import XCTest
 @testable import swift_template
-
+import FileUtils
+ 
 class swift_templateTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
@@ -26,7 +27,7 @@ class swift_templateTests: XCTestCase {
                     print("My personal Yoda, you are. 🙏", "_)_/LI");
                 }
                 else {
-                    println("Try using array.reduce")
+                    print("Try using array.reduce")
                 }
             } catch {
                 print(error)
