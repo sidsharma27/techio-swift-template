@@ -14,27 +14,27 @@ class swift_templateTests: XCTestCase {
         super.tearDown()
         if Path.exists("/project/target/Sources/swift_template.swift") {
             do {
-                let content = try File.read(atPath: "/project/target/Sources/swift_template.swift") as! String
-                if content.range(of:"galaxies.reduce") != nil{ 
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "_)_/LI");
-                }
-                else {
-                    print("TECHIO> message --channel Hint: Try using array.reduce")
+                if testRun!.failureCount > 0 {
+                    print("TECHIO> message --channel Hint: Error")
+                } else {
+                    let content = try File.read(atPath: "/project/target/Sources/swift_template.swift")
+                    if content.range(of:"galaxies.reduce") != nil { 
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
+                        print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "_)_/LI");
+                    }
+                    else {
+                        print("TECHIO> message --channel Hint: Try using array.reduce")
+                    }
                 }
             } catch {
                 print(error)
             }
         }
-        if testRun!.failureCount > 0 {
-            print("failed")
-        } else {
-            print("success")
-        }
+        
     }
 
     static var allTests = [
