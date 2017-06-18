@@ -15,7 +15,6 @@ class swift_templateTests: XCTestCase {
         if Path.exists("/project/target/Sources/swift_template.swift") {
             do {
                 let content = try File.read(atPath: "/project/target/Sources/swift_template.swift") as! String
-                print(content)
                 if content.range(of:"galaxies.reduce") != nil{ 
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
