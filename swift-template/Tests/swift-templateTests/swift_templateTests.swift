@@ -20,7 +20,7 @@ class swift_templateTests: XCTestCase {
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
-                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　");
+                    print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " -._\7      .　　° ☾  ° 　¸.☆  ● .　　　");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ");
                     print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "_)_/LI");
