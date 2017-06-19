@@ -15,7 +15,6 @@ class swift_templateTests: XCTestCase {
         if Path.exists("/project/target/Sources/swift_template.swift") {
             do {
                 if testRun!.failureCount > 0 {
-                    print("TECHIO> message --channel Hint: Error")
                     print("TECHIO> message --channel Oops! Try Again 🐞");
                     print("TECHIO> message --channel Hint💡 Did you properly accumulate all stars into 'totalStars'? 🤔");
 
@@ -30,7 +29,7 @@ class swift_templateTests: XCTestCase {
                         print("TECHIO> message --channel Sucess! My personal Yoda, you are. 🙏", "_)_/LI");
                     }
                     else {
-                        print("TECHIO> message --channel Hint: Try using array.reduce")
+                        print("TECHIO> message --channel Hint: Good Job! Try using array.reduce")
                     }
                 }
             } catch {
