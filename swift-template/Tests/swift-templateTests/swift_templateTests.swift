@@ -16,6 +16,9 @@ class swift_templateTests: XCTestCase {
             do {
                 if testRun!.failureCount > 0 {
                     print("TECHIO> message --channel Hint: Error")
+                    print("TECHIO> message --channel Oops! Try Again 🐞");
+                    print("TECHIO> message --channel Hint💡 Did you properly accumulate all stars into 'totalStars'? 🤔");
+
                 } else {
                     let content = try File.read(atPath: "/project/target/Sources/swift_template.swift")
                     if content.range(of:"galaxies.reduce") != nil { 

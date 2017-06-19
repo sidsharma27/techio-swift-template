@@ -1,7 +1,7 @@
 # Welcome!
 
-This Swift template lets you get started quickly with a simple working example using Swift Package Manager and XCTest. If it is your first contribution then you should have a look at the [Getting Started](/doc/getting-started-create-playground) document.
-
+This Swift template lets you get started quickly with a simple working example using Swift Package Manager and XCTest. If this is your first contribution, you should have a look at the [Getting Started](/doc/getting-started-create-playground) guide.
+ 
 
 The source code is on [GitHub](https://github.com/sidsharma27/techio-swift-template.git), please feel free to come up with proposals to improve it.
 
@@ -27,5 +27,5 @@ This *mandatory* file describes both the table of content and the programming pr
 
 # Visual and Interactive Content
 
-Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal. Please refer to the [documentation](/doc) to learn more about the viewer integrations.
+Tech.io provides all the tools to embed visual and interactive contents like a Web app or a Unix terminal. Please refer to the [documentation](/doc) to learn more about the viewer integrations.
 
